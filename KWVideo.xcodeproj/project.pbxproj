@@ -14,7 +14,6 @@
 		32900FFD1DAB87490080C378 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32900FFC1DAB87490080C378 /* Assets.xcassets */; };
 		329010001DAB87490080C378 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32900FFE1DAB87490080C378 /* LaunchScreen.storyboard */; };
 		329010081DAB87D50080C378 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 329010071DAB87D50080C378 /* AVFoundation.framework */; };
-		3290100A1DAB8B340080C378 /* carVideo.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 329010091DAB8B340080C378 /* carVideo.mp4 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,7 +28,6 @@
 		32900FFF1DAB87490080C378 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		329010011DAB87490080C378 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		329010071DAB87D50080C378 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
-		329010091DAB8B340080C378 /* carVideo.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = carVideo.mp4; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,7 +62,6 @@
 		32900FEF1DAB87490080C378 /* KWVideo */ = {
 			isa = PBXGroup;
 			children = (
-				329010091DAB8B340080C378 /* carVideo.mp4 */,
 				32900FF31DAB87490080C378 /* AppDelegate.h */,
 				32900FF41DAB87490080C378 /* AppDelegate.m */,
 				32900FF61DAB87490080C378 /* ViewController.h */,
@@ -143,7 +140,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3290100A1DAB8B340080C378 /* carVideo.mp4 in Resources */,
 				329010001DAB87490080C378 /* LaunchScreen.storyboard in Resources */,
 				32900FFD1DAB87490080C378 /* Assets.xcassets in Resources */,
 				32900FFB1DAB87490080C378 /* Main.storyboard in Resources */,
@@ -310,6 +306,7 @@
 				329010061DAB87490080C378 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
